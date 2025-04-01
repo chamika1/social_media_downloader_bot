@@ -298,7 +298,7 @@ def main():
     try:
         logger.info("Starting bot...")
         application = ApplicationBuilder().token(
-            "7612893886:AAFi1odrdIYztAivNcannNnSdK24e3aL9JE").build()
+            "BOT_TOKEN").build()
 
         # Register command handlers
         application.add_handler(CommandHandler("start", start))
